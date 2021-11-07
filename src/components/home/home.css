@@ -1,0 +1,26 @@
+.home-section {
+    position: relative;
+    z-index: 1;
+    background-image: url(../../assets/home_background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    height: 100vh;
+}
+.home-content {
+    padding: 9rem 0 2rem !important;
+}
+.home-header-column-7 {
+    margin-top: 80px !important;
+    color: rgb(92, 17, 17);
+    text-align: center;
+}
+.heading {
+    font-size: 2.4em;
+    padding-left: 50px !important;
+}
+.header-quality {
+    color: tomato;
+    padding-left: 50px !important
+}
