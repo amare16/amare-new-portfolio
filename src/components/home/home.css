@@ -6,10 +6,10 @@
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
-    height: 100vh;
+    margin-bottom: 50px;
 }
 .home-content {
-    padding: 9rem 0 2rem !important;
+    padding: 5rem 0 2rem !important;
 }
 .home-header-column-7 {
     margin-top: 80px !important;
@@ -23,4 +23,36 @@
 .header-quality {
     color: tomato;
     padding-left: 50px !important
+}
+
+.coding {
+    justify-content: center !important;
+    padding-top: 9em !important;
+}
+.img-coding {
+    transform: skewY(10deg);
+    border-radius: 50px !important;
+    margin-bottom: 50px;
+}
+.avatar-row {
+    padding-top: 50px;
+}
+.img-avatar {
+    clip-path: circle();
+    width: 200px !important;
+}
+
+@media (max-width: 767px) {
+    .heading {
+        font-size: 1.6em;
+        padding-left: 0px !important;
+    }
+    .header-quality {
+        color: tomato;
+        padding-left: 0px !important
+    }
+    .coding {
+        padding-top: 4em !important;
+        padding-bottom: 2em !important;
+    }
 }
