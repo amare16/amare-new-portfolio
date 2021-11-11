@@ -1,0 +1,25 @@
+
+.other-skills-row {
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.tool-icons {
+    font-size: 4.5em;
+    margin: 15px;
+    padding: 10px;
+    border: 1.7px solid rgb(108 27 27 / 64%);
+    opacity: 0.93;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px;
+    display: table;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+    overflow: hidden;
+    transition: all 0.4s ease 0s !important;
+    width: 190px !important;
+}
+.tool-icons:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    border: 2.2px solid rgba(1, 39, 26, 0.883);
+}
