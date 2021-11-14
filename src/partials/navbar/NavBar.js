@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { FcHome } from "react-icons/fc";
 import { FaProjectDiagram } from "react-icons/fa";
 import { GiSkills } from 'react-icons/gi';
+import { GrResume } from 'react-icons/gr';
+
 import './navBar.css';
 
 const NavBar = () => {
@@ -48,6 +50,9 @@ const NavBar = () => {
               </Nav.Link>
               <Nav.Link as={Link} to="/projects" onClick={() => setExpand(false)}>
                 <FaProjectDiagram className="projects-icon" />Projects
+              </Nav.Link>
+              <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
+                <GrResume className="projects-icon" style={{color: '#fff'}} />Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>

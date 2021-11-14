@@ -34,34 +34,34 @@ const MyProgrammingStack = () => {
       <Col xs={4} md={2} className="language-icons">
         <FaReact color="#61DBFB" size={40} />
         &nbsp;
-        <SiRedux size={40} />
+        <SiRedux size={40} color="#764abc" />
         &nbsp;
-        <SiJest size={40} />
+        <SiJest size={40} color="#a42f2f" />
       </Col>
       <Col xs={4} md={2} className="language-icons">
         <FaPhp color="#474A8A" />
       </Col>
       <Col xs={4} md={2} className="language-icons">
-        <FaWordpress color="#474A8A" />
+        <FaWordpress color="#21759b" />
       </Col>
       <Col xs={4} md={2} className="language-icons">
-        <AiOutlineConsoleSql color="#474A8A" />
+        <AiOutlineConsoleSql color="#4d4dff" />
       </Col>
       <Col xs={4} md={2} className="language-icons">
-        <FaBootstrap color="#474A8A" />
+        <FaBootstrap color="#6610f2" />
       </Col>
       <Col xs={4} md={2} className="language-icons">
-        <SiJquery color="#474A8A" />
+        <SiJquery color="#0769ad" />
       </Col>
       <Col xs={4} md={2} className="language-icons">
-        <FaSymfony color="#474A8A" />
+        <FaSymfony color="#000000" />
       </Col>
       <Col xs={4} md={2} className="language-icons">
-        <FaJava size={40} />
+        <FaJava size={40} color="#5382a1" />
         &nbsp;
-        <SiCsharp size={40} />
+        <SiCsharp size={40} color="#a877e8" />
         &nbsp;
-        <FaPython size={40} />
+        <FaPython size={40} color="#4B8BBE" />
       </Col>
     </Row>
   );
