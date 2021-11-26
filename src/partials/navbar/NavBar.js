@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import logo from "../../assets/logo192.png";
+import logo from "../../assets/amare-logo.png";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { FcHome } from "react-icons/fc";
+import { FcHome, FcViewDetails } from "react-icons/fc";
 import { FaProjectDiagram } from "react-icons/fa";
 import { GiSkills } from 'react-icons/gi';
 import { GrResume } from 'react-icons/gr';
+import { MdOutlineContactMail } from 'react-icons/md';
 
 import './navBar.css';
 
@@ -52,7 +53,10 @@ const NavBar = () => {
                 <FaProjectDiagram className="projects-icon" />Projects
               </Nav.Link>
               <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
-                <GrResume className="projects-icon" style={{color: '#fff'}} />Resume
+                <FcViewDetails className="projects-icon" />Resume
+              </Nav.Link>
+              <Nav.Link as={Link} to="/contact" onClick={() => setExpand(false)}>
+                <MdOutlineContactMail className="projects-icon" style={{color: '#fff'}} />Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>

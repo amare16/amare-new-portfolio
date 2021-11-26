@@ -15,9 +15,9 @@ const TitleStyled = styled.div`
     h2 {
         font-size: 3.1rem;
         font-weight: bold;
-        text-transform: uppercase;
         position: relative;
         padding-bottom: 0.7rem;
+        text-align: center;
 
         @media screen and (max-width: 496px){
             font-size: 2.8rem;
@@ -35,6 +35,7 @@ const TitleStyled = styled.div`
             background-color: rgba(3,127,255,.3);
             border-radius: 15px;
             left: 0;
+            margin-left: 47%;
         }
         &::after{
             content: "";
@@ -45,6 +46,7 @@ const TitleStyled = styled.div`
             background-color: #007bff;
             border-radius: 15px;
             left: 0;
+            margin-left: 43%;
         }
         // span {
         //     font-weight: 900;

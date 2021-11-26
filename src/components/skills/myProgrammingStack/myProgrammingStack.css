@@ -17,6 +17,8 @@
     overflow: hidden;
     transition: all 0.4s ease 0s !important;
     width: 190px !important;
+
+    
 }
 .language-icons:hover {
     transform: scale(1.05);

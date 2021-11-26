@@ -5,7 +5,7 @@ const SmallTitle = ({ icon, title }) => {
     return (
         <SmallTitleStyled>
             <p>{icon}</p>
-            <h3 style={{color: "#000000"}}>{title}</h3>
+            <h3>{title}</h3>
         </SmallTitleStyled>
     );
 };
@@ -20,7 +20,7 @@ const SmallTitleStyled = styled.div`
         }
     }
     h3 {
-        color: #fff;
+        color: #000;
         font-size: 2rem;
     }
 `

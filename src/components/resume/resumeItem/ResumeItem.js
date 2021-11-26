@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
 
-const ResumeItem = ({ year, title, subTitle, text }) => {
+const ResumeItem = ({ year, title, subTitle, text1, text2, text3, text4}) => {
     return (
         <Row className="resume-item-row" style={{marginTop: "20px"}}>
             <ResumeItemStyled>
@@ -12,7 +12,7 @@ const ResumeItem = ({ year, title, subTitle, text }) => {
             <Col md={10} className="right-content">
                 <h5>{title}</h5>
                 <h6>{subTitle}</h6>
-                <p>{text}</p>
+                <p style={{textAlign: 'justify'}}>➡ {text1} <br /> ➡ {text2} <br /> ➡ {text3} <br /> ➡ {text4}</p>
             </Col>
             
             {/* <div className="left-content">
@@ -67,7 +67,7 @@ const ResumeItemStyled = styled.div`
             top: 15px;
             height: 5px;
             width: 3rem;
-            background-color: #4b1919;
+            background-color: #007bff;
         }
         h5{
             color: var(--primary-color);

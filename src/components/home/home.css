@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
-    margin-bottom: 50px;
 }
 .home-content {
     padding: 2rem 0 2rem !important;
@@ -24,22 +23,55 @@
     color: tomato;
     padding-left: 50px !important
 }
+small {
+    color: rgb(131, 77, 219) !important;
+}
 
 .coding {
     justify-content: center !important;
     padding-top: 9em !important;
+    position: relative !important;
+}
+.coding:hover {
+    transform: scaleY(0.75) !important;
+    cursor: pointer;
 }
 .img-coding {
-    transform: skewY(10deg);
-    border-radius: 50px !important;
+    transform: skewY(5deg);
+    border-radius: 25px !important;
     margin-bottom: 50px;
+    box-shadow: 0px 5px 35px rgb(111, 103, 223);
 }
 .avatar-row {
     padding-top: 50px;
 }
 .img-avatar {
-    clip-path: circle();
+    /* clip-path: circle(); */
     width: 200px !important;
+    position: absolute;
+    top: 230px;
+    right: 11px;
+    transform: skewY(-18deg);
+}
+.cv-btn {
+    background-color: tomato !important;
+    border-color: tomato !important;
+    border-radius: 25px !important;
+    box-shadow: 0px 5px 35px rgb(179, 7, 21);
+}
+.hire-btn {
+    background-color: rgb(10, 97, 22) !important;
+    border-color: rgb(10, 97, 22) !important;
+    border-radius: 25px !important;
+    box-shadow: 0px 5px 35px rgb(7, 179, 50);
+}
+.cv-btn:hover {
+    transform: scale(1.25);
+    background-color: rgb(39, 2, 54) !important;
+}
+.hire-btn:hover {
+    transform: scale(1.25);
+    background-color: rgb(39, 2, 54) !important;
 }
 
 @media (max-width: 767px) {
@@ -53,6 +85,22 @@
     }
     .coding {
         padding-top: 4em !important;
-        padding-bottom: 2em !important;
+        padding-bottom: 4em !important;
+    }
+    .img-avatar {
+        /* clip-path: circle(); */
+        width: 150px !important;
+        position: absolute;
+        top: 114px;
+        right: 13px;
+        transform: skewY(-18deg);
+    }
+    .coding {
+        position: relative !important;
+        /* margin-bottom: 100px; */
+    }
+    .coding:hover {
+        transform: scaleY(0.75) !important;
+        cursor: pointer;
     }
 }
