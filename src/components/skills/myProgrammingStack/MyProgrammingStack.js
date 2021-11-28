@@ -22,7 +22,6 @@ const MyProgrammingStack = () => {
   const MyContentStyles = {
     backgroundColor: "tomato",
     color: "white",
-    // padding: "20px 40px",
   };
   const now = [10, 25, 40, 50, 60, 75, 80, 90, 100];
   return (

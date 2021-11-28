@@ -17,6 +17,7 @@
     overflow: hidden;
     transition: all 0.4s ease 0s !important;
     width: 190px !important;
+    visibility: visible;
 }
 .tool-icons:hover {
     transform: scale(1.05);
