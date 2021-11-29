@@ -21,7 +21,7 @@ const Projects = () => {
             <ProjectCards
               imgPath={hatchways}
               isBlog={false}
-              title="Hatchways Assessment"
+              title="Hatchways Assessment with React js"
               description="This assessement testify your skills how to fetch data from JSON API and present the information on the screen, to style the web page, add a name and tag input to filter the list of students by their name and their tag and finally to make each student have an expandable list view so that all of their test scores may be viewed"
               link="https://amare-hatchways-assessement-react-app.netlify.app/"
             />

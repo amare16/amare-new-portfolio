@@ -8,7 +8,8 @@ import { FcHome, FcViewDetails } from "react-icons/fc";
 import { FaProjectDiagram } from "react-icons/fa";
 import { GiSkills } from 'react-icons/gi';
 import { GrResume } from 'react-icons/gr';
-import { MdOutlineContactMail } from 'react-icons/md';
+import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
+import { MdOutlineContactMail, MdOutlineCastForEducation } from 'react-icons/md';
 
 import './navBar.css';
 
@@ -52,8 +53,11 @@ const NavBar = () => {
               <Nav.Link as={Link} to="/projects" onClick={() => setExpand(false)}>
                 <FaProjectDiagram className="projects-icon" />Projects
               </Nav.Link>
-              <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
-                <FcViewDetails className="projects-icon" />Resume
+              <Nav.Link as={Link} to="/experiences" onClick={() => setExpand(false)}>
+                <BusinessCenterIcon /> Experiences
+              </Nav.Link>
+              <Nav.Link as={Link} to="/education" onClick={() => setExpand(false)}>
+                <MdOutlineCastForEducation /> Education
               </Nav.Link>
               <Nav.Link as={Link} to="/contact" onClick={() => setExpand(false)}>
                 <MdOutlineContactMail className="projects-icon" style={{color: '#fff'}} />Contact
