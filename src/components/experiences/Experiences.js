@@ -132,6 +132,10 @@ const useStyles = makeStyles((theme) => ({
       "&:hover": {
         transform: "scale(1.10) !important",
       }
+  },
+  list: {
+    listStyle: "none",
+    fontFamily: "Comic Sans MS",
   }
 }));
 const Experiences = () => {
@@ -169,21 +173,21 @@ const Experiences = () => {
                   </Typography>
                   <Typography variant="subtitle1" align="justify">
                     <ul>
-                      <li style={{ listStyle: "none" }}>
+                      <li className={classes.list}>
                         ⏹ Creation of mobile dating application with React Native,
                         Redux, Node js technology and the Mongodb database
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                        Creation of API in Node js with its framework Express js
+                      <li className={classes.list}>
+                        ⏹ Creation of API in Node js with its framework Express js
                         and test it using POSTMAN software
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                        Create the registration feature with phone number using
+                      <li className={classes.list}>
+                        ⏹ Create the registration feature with phone number using
                         of the Amazon Simple Notification Service (SNS) service
                         to create confirmation code
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                        Design and develop data persistence with MongoDB. In
+                      <li className={classes.list}>
+                        ⏹ Design and develop data persistence with MongoDB. In
                         addition, use of CRUDs (Create, Read, Update and Delete)
                       </li>
                     </ul>
@@ -218,16 +222,16 @@ const Experiences = () => {
                   </Typography>
                   <Typography variant="subtitle1" align="justify">
                     <ul>
-                      <li style={{ listStyleType: "square" }}>
-                      Modification and debugging of the Woocommerce web site
+                      <li className={classes.list}>
+                      ⏹ Modification and debugging of the Woocommerce web site
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                      Addition of a payment functionality, Credit Card and Paypal
+                      <li className={classes.list}>
+                      ⏹ Addition of a payment functionality, Credit Card and Paypal
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                      Securing the web site via HTTPS
+                      <li className={classes.list}>
+                      ⏹ Securing the web site via HTTPS
                       </li>
-                      <li style={{ listStyleType: "square" }}>
+                      <li className={classes.list}>
                       <a href="https://www.mobilier-de-startup.com/" target="_blank">See the website</a>
                       </li>
                     </ul>
@@ -262,16 +266,16 @@ const Experiences = () => {
                   </Typography>
                   <Typography variant="subtitle1" align="justify">
                     <ul>
-                      <li style={{ listStyleType: "square" }}>
-                      Creation of a showcase site for the company JokaJobs with Wordpress
+                      <li className={classes.list}>
+                      ⏹ Creation of a showcase site for the company JokaJobs with Wordpress
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                      Implementation of Elementor plugin and modification with CSS
+                      <li className={classes.list}>
+                      ⏹ Implementation of Elementor plugin and modification with CSS
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                      Creation and modification of the database, MYSQL
+                      <li className={classes.list}>
+                      ⏹ Creation and modification of the database, MYSQL
                       </li>
-                      <li style={{ listStyleType: "square" }}>
+                      <li className={classes.list}>
                       <a href="https://jokajobs.com/" target="_blank">See the website</a>
                       </li>
                     </ul>
@@ -306,12 +310,12 @@ const Experiences = () => {
                   </Typography>
                   <Typography variant="subtitle1" align="justify">
                     <ul>
-                      <li style={{ listStyleType: "square" }}>
-                        Improvement and management of existing Zend (PHP
+                      <li className={classes.list}>
+                      ⏹ Improvement and management of existing Zend (PHP
                         framework) Application functionalities
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                        Creation of the Generic Box functionality to distribute
+                      <li className={classes.list}>
+                      ⏹ Creation of the Generic Box functionality to distribute
                         the management of emails received via the team email
                         between the Application Managers (AR). This
                         functionality is managed by an admin. He assigns each RA
@@ -320,16 +324,16 @@ const Experiences = () => {
                         functionality, applied the MVC architecture and CRUD
                         operations with the Zend framework.
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                        Creation of the Skills Management application. This
+                      <li className={classes.list}>
+                      ⏹ Creation of the Skills Management application. This
                         application should allow the manager for a given sector
                         to analyze the skills of his team and ensure that the
                         skills covered are in line with the needs. In addition,
                         it allows the manager to establish and formalize the
                         training plan for employees in his sector.
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                        Database design
+                      <li className={classes.list}>
+                      ⏹ Database design
                       </li>
                     </ul>
                   </Typography>
@@ -363,11 +367,11 @@ const Experiences = () => {
                   </Typography>
                   <Typography variant="subtitle1" align="justify">
                     <ul>
-                      <li style={{ listStyleType: "square" }}>
-                      Improvement of MYSQL database (inserting, modifying and deleting queries
+                      <li className={classes.list}>
+                      ⏹ Improvement of MYSQL database (inserting, modifying and deleting queries
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                      Creation of a search bar with PHP and AJAX by addind fields in tables and removing unnecessary fields
+                      <li className={classes.list}>
+                      ⏹ Creation of a search bar with PHP and AJAX by addind fields in tables and removing unnecessary fields
                       </li>
                     </ul>
                   </Typography>
@@ -401,14 +405,14 @@ const Experiences = () => {
                   </Typography>
                   <Typography variant="subtitle1" align="justify">
                     <ul>
-                      <li style={{ listStyleType: "square" }}>
-                      Use of statistical software to analyze data from laboratory and field experiments
+                      <li className={classes.list}>
+                      ⏹ Use of statistical software to analyze data from laboratory and field experiments
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                      Horticultural research: creation of seeds adapted to Ethiopian environments (vegetables and fruits)
+                      <li className={classes.list}>
+                      ⏹ Horticultural research: creation of seeds adapted to Ethiopian environments (vegetables and fruits)
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                      Work in collaboration with farms from different regions from Ethiopia
+                      <li className={classes.list}>
+                      ⏹ Work in collaboration with farms from different regions from Ethiopia
                       </li>
                     </ul>
                   </Typography>
@@ -442,11 +446,11 @@ const Experiences = () => {
                   </Typography>
                   <Typography variant="subtitle1" align="justify">
                     <ul>
-                      <li style={{ listStyleType: "square" }}>
-                      Team management: two teams of 15 people
+                      <li className={classes.list}>
+                      ⏹ Team management: two teams of 15 people
                       </li>
-                      <li style={{ listStyleType: "square" }}>
-                      Creation of a search bar with PHP and AJAX by addind fields in tables and removing unnecessary fields
+                      <li className={classes.list}>
+                      ⏹ Creation of a search bar with PHP and AJAX by addind fields in tables and removing unnecessary fields
                       </li>
                     </ul>
                   </Typography>

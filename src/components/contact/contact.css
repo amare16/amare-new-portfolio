@@ -1,14 +1,10 @@
-
 .contact-section {
-    margin-top:90px;
+    margin-top:100px;
     padding: 10px;
 }
 .contact-container {
     background-color: rgb(19, 26, 23) !important;
-    /* height: 500px; */
-    /* margin-top: 115px; */
     border-radius: 25px;
-    /* margin-bottom:115px; */
     padding: 10px;
 }
 .contact-title-row {
@@ -17,9 +13,6 @@
 .title-paragraph {
     color: #fff;
 }
-/* .title-paragraph > strong {
-    color: greenyellow;
-} */
 .contact-form-row {
     padding: 10px;
 }
@@ -38,44 +31,30 @@
 .form-label {
     color: white;
 }
-
-/*
-
-.title-paragraph {
-    margin-top: 20px;
-    color: white !important;
-    font-family: "Poppins Bold";
-    letter-spacing: .2rem !important;
+.thankyoumessage {
+    color: "white";
+    background: linear-gradient(100deg, rgb(140, 26, 255) 0%, rgb(204, 0, 102) 25%);
+    width: 50%;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
-.contact-form-row {
-    height: 404px;
-}
-.img-email-contact {
-    vertical-align: middle;
-    padding: 50px;
-}
-.form-contact {
-    margin-bottom: 150px;
-}
-.form {
-    color: white;
-    display: flex;
-    padding: 15px;
-    justify-content: center;
-    flex-direction: column;
-    opacity: .9;
-    box-shadow: 0 0 20px -2px #1f2235;
-    border-radius: 12px;
-} */
 
 @media (max-width: 767px) {
     .contact-container {
         margin-bottom: 150px;
     }
-    /* .img-email-contact {
-        margin-top: 0;
-    } */
     .form-contact {
         margin-top: 20px !important;
+    }
+    .thankyoumessage {
+        color: white;
+        background: linear-gradient(100deg, rgb(140, 26, 255) 0%, rgb(204, 0, 102) 25%);
+        width: auto;
+        text-align: center;
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 5px;
     }
 }

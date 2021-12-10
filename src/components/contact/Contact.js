@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   ButtonGroup,
   Col,
@@ -18,6 +18,7 @@ import "./contact.css";
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
+  const [thankyouMessage, setThankyouMessage] = useState('Thank you for your message!');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,6 +34,9 @@ const Contact = () => {
         (result) => {
           console.log(result);
           setDone(true);
+          setTimeout(() => {
+            setDone(false);
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
@@ -40,6 +44,8 @@ const Contact = () => {
       );
     formRef.current.reset();
   };
+
+
   return (
     <section className="contact-section">
       <Container className="contact-container">
@@ -53,8 +59,9 @@ const Contact = () => {
               typeSpeed={40}
               backSpeed={60}
               loop
-              style={{color: 'greenyellow', fontSize: '30px'}}
-            />
+              style={{ color: "greenyellow", fontSize: "30px" }}
+            /><br />
+            <strong style={{color: "violet", fontSize: "16px"}}><span style={{color: "greenyellow"}}>Call me: </span> +33758169493</strong>
           </Col>
         </Row>
         <Row className="contact-form-row">
@@ -66,6 +73,13 @@ const Contact = () => {
             />
           </Col>
           <Col md={{ span: 6, offset: 1 }} className="form-contact">
+          {done && (
+              <p
+                className="thankyoumessage"
+              >
+                <strong>{thankyouMessage}</strong>
+              </p>
+            )}
             <Form className="form" ref={formRef} onSubmit={handleSubmit}>
               <Form.Group controlId="form.Name">
                 <Form.Label>Name</Form.Label>
@@ -73,6 +87,7 @@ const Contact = () => {
                   type="text"
                   name="user_name"
                   placeholder="Enter your name"
+                  required
                 />
               </Form.Group>
               <Form.Group controlId="form.Email">
@@ -81,6 +96,7 @@ const Contact = () => {
                   type="email"
                   name="user_email"
                   placeholder="Enter your email"
+                  required
                 />
               </Form.Group>
               <Form.Group controlId="form.Subject">
@@ -89,18 +105,18 @@ const Contact = () => {
                   type="text"
                   name="user_subject"
                   placeholder="Enter your subject"
+                  required
                 />
               </Form.Group>
               <Form.Group controlId="form.Textarea">
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" name="message" rows={3} />
+                <Form.Control as="textarea" name="message" rows={3} required />
               </Form.Group>
               <ButtonGroup style={{ marginTop: "20px" }}>
                 <Button type="submit" variant="primary">
                   Send <IoIosSend />
                 </Button>
               </ButtonGroup>
-              {done && "Thank you for your message!"}
             </Form>
           </Col>
         </Row>

@@ -15,7 +15,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   mainTimeLine: {
-    background: "#3b1e3b",
+    background: "#053b0a",
     [theme.breakpoints.up(996)]: {
         marginBottom: "30px !important",
     },
@@ -91,7 +91,7 @@ const Education = () => {
                 color="textSecondary"
                 className={classes.educationYear}
               >
-                2018-2018
+                2017-2017
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -103,9 +103,9 @@ const Education = () => {
             <TimelineContent>
               <Paper elevation={3} className={classes.paper}>
                 <Typography variant="h5" component="h1" style={{color: "green", fontWeight: "bold"}}>
-                FRENCH as a Foreign Language / B2 level (Certificate)
+                PHP Web Developer 3 months training (Certificate)
                 </Typography>
-                <Typography variant="h6" component="h1" style={{color: "#333399", fontWeight: "bold"}}>Municipality of Paris, France</Typography>
+                <Typography variant="h6" component="h1" style={{color: "#333399", fontWeight: "bold"}}>ASTON School of IT, France</Typography>
               </Paper>
             </TimelineContent>
           </TimelineItem>
@@ -130,7 +130,7 @@ const Education = () => {
                 <Typography variant="h5" component="h1" style={{color: "green", fontWeight: "bold"}}>
                 Intensive Training in Web Development (Certificate)
                 </Typography>
-                <Typography variant="h6" component="h1" style={{color: "#333399", fontWeight: "bold"}}>School of Simplon.co, Montreuil, France</Typography>
+                <Typography variant="h6" component="h1" style={{color: "#333399", fontWeight: "bold"}}>Simplon.co School of IT, Montreuil, France</Typography>
               </Paper>
             </TimelineContent>
           </TimelineItem>
