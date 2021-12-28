@@ -87,7 +87,7 @@ const Home = () => {
                     >
                       <Card.Body>
                         <Card.Text>
-                          <strong style={{fontSize: "20px", color: "green"}}>A passionate Full time Developer or Freelancer who wants to build:</strong>
+                          <strong style={{fontSize: "20px", color: "red"}}>A passionate Full time Developer or Freelancer who wants to build:</strong>
                           <br /><br />
                           <strong style={{textAlign: "justify"}}><SiFreelancer size={35} /> a full project with React js and Node js!</strong> <br />
                           <strong><SiFreelancer size={35} /> a showcase website with Wordpress and an E-commerce
