@@ -73,13 +73,13 @@ const Contact = () => {
             />
           </Col>
           <Col md={{ span: 6, offset: 1 }} className="form-contact">
-          {done && (
+          {/* {done && (
               <p
                 className="thankyoumessage"
               >
                 <strong>{thankyouMessage}</strong>
               </p>
-            )}
+            )} */}
             <Form className="form" ref={formRef} onSubmit={handleSubmit}>
               <Form.Group controlId="form.Name">
                 <Form.Label>Name</Form.Label>
@@ -118,6 +118,13 @@ const Contact = () => {
                 </Button>
               </ButtonGroup>
             </Form>
+            {done && (
+              <p
+                className="thankyoumessage"
+              >
+                <strong>{thankyouMessage}</strong>
+              </p>
+            )}
           </Col>
         </Row>
       </Container>
