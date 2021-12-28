@@ -1,0 +1,22 @@
+
+.section-projects {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+.project-heading {
+    font-size: 2.3emt;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+.projects-card-col {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+}
+.header-brown {
+    color: #890636;
+}
