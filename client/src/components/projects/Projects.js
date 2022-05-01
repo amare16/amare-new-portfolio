@@ -5,7 +5,7 @@ import HoverVideoPlayer from "react-hover-video-player";
 import "./projects.css";
 
 import hatchways from "../../assets/project-images/hatchways-assessement.jpg";
-import cSharpCalculator from "../../assets/project-images/calculator-c-sharp.jpg";
+import tutoAppReactNodeJs from "../../assets/project-images/tuto-app-react-node-js.jpg";
 import agroInterest from "../../assets/project-images/Agrointerest.png";
 import agroInterestVideo from "../../assets/monsiteweb-agrointerest.mp4";
 
@@ -44,11 +44,11 @@ const Projects = () => {
           </Col>
           <Col md={4} className="projects-card-col">
             <ProjectCards
-              imgPath={cSharpCalculator}
+              imgPath={tutoAppReactNodeJs}
               isBlog={false}
-              title="Calculator with C#"
-              description="Simple calculator with C# technology that includes the basic operations to calculate numbers"
-              link="https://github.com/amare16/Simple-calculator-with-C-Sharp"
+              title="Tutorial app with React and Node js"
+              description="Tuto app is a FullStack app developed by using React js and Node js technology. "
+              link="https://first-tuto-react-nodejs-app.netlify.app/"
             />
           </Col>
         </Row>
